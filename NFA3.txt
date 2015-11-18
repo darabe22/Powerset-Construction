@@ -1,0 +1,152 @@
+Enter the expression to be parsed: 
+(a.b.a.b)*|(a.a.a*|b)*
+ab.a.b.*aa.a*.b|*|
+
+Printing nfa
+
+Printing Graph
+Starting state is:  
+   20
+There are 15 state(s) in the graph:  
+State 20
+   has path(s) to
+   1)--->19
+   2)--->17
+   3)--->7
+State 21
+   has no neighbors :( 
+State 18
+   has path(s) to
+   1)b--->19
+   2)a--->11
+State 19
+   has path(s) to
+   1)--->18
+   2)--->21
+State 11
+   has path(s) to
+   1)a--->13
+State 13
+   has path(s) to
+   1)--->15
+State 17
+   has path(s) to
+   1)--->18
+   2)--->21
+State 14
+   has path(s) to
+   1)a--->15
+State 15
+   has path(s) to
+   1)--->14
+   2)--->17
+State 9
+   has no neighbors :( 
+State 0
+   has path(s) to
+   1)a--->1
+State 1
+   has path(s) to
+   1)b--->3
+State 3
+   has path(s) to
+   1)a--->5
+State 5
+   has path(s) to
+   1)b--->7
+State 7
+   has path(s) to
+   1)--->0
+   2)--->9
+There are 2 Final states:  
+   21  9  
+
+Printing dfa
+
+Printing Graph
+Starting state is:  
+   22
+There are 11 state(s) in the graph:  
+State 22
+   has path(s) to
+   1)a--->23
+   2)b--->24
+State 23
+   has path(s) to
+   1)a--->25
+   2)b--->26
+State 24
+   has path(s) to
+   1)a--->27
+   2)b--->24
+State 25
+   has path(s) to
+   1)a--->29
+   2)b--->24
+State 26
+   has path(s) to
+   1)a--->31
+State 27
+   has path(s) to
+   1)a--->25
+State 29
+   has path(s) to
+   1)a--->33
+   2)b--->24
+State 31
+   has path(s) to
+   1)b--->35
+State 33
+   has path(s) to
+   1)a--->33
+   2)b--->24
+State 35
+   has path(s) to
+   1)a--->38
+State 38
+   has path(s) to
+   1)b--->26
+There are 6 Final states:  
+   22  24  25  29  33  35  
+
+Printing minimum dfa
+
+Printing Graph
+Starting state is:  
+   40
+There are 9 state(s) in the graph:  
+State 40
+   has path(s) to
+   1)a--->41
+   2)b--->42
+State 41
+   has path(s) to
+   1)a--->43
+   2)b--->44
+State 42
+   has path(s) to
+   1)a--->45
+   2)b--->42
+State 43
+   has path(s) to
+   1)a--->43
+   2)b--->42
+State 44
+   has path(s) to
+   1)a--->46
+State 45
+   has path(s) to
+   1)a--->43
+State 46
+   has path(s) to
+   1)b--->47
+State 47
+   has path(s) to
+   1)a--->48
+State 48
+   has path(s) to
+   1)b--->44
+There are 4 Final states:  
+   40  42  43  47  
+
+Do you want to parse again (Y/N)?

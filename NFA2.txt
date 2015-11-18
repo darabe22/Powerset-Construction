@@ -1,0 +1,101 @@
+Enter the expression to be parsed: 
+a.b.(a|a.b)*.(a|a.a)
+ab.aab.|*.aaa.|.
+
+Printing nfa
+
+Printing Graph
+Starting state is:  
+   0
+There are 11 state(s) in the graph:  
+State 0
+   has path(s) to
+   1)a--->1
+State 1
+   has path(s) to
+   1)b--->3
+State 3
+   has path(s) to
+   1)--->9
+   2)--->5
+State 11
+   has path(s) to
+   1)a--->15
+   2)a--->13
+State 6
+   has path(s) to
+   1)a--->7
+   2)a--->5
+State 7
+   has path(s) to
+   1)b--->9
+State 9
+   has path(s) to
+   1)--->6
+   2)--->11
+State 5
+   has path(s) to
+   1)--->6
+   2)--->11
+State 15
+   has path(s) to
+   1)a--->17
+State 17
+   has no neighbors :( 
+State 13
+   has no neighbors :( 
+There are 2 Final states:  
+   17  13  
+
+Printing dfa
+
+Printing Graph
+Starting state is:  
+   18
+There are 6 state(s) in the graph:  
+State 18
+   has path(s) to
+   1)a--->19
+State 19
+   has path(s) to
+   1)b--->20
+State 20
+   has path(s) to
+   1)a--->21
+State 21
+   has path(s) to
+   1)a--->22
+   2)b--->23
+State 22
+   has path(s) to
+   1)a--->22
+   2)b--->23
+State 23
+   has path(s) to
+   1)a--->21
+There are 2 Final states:  
+   21  22  
+
+Printing minimum dfa
+
+Printing Graph
+Starting state is:  
+   27
+There are 4 state(s) in the graph:  
+State 27
+   has path(s) to
+   1)a--->28
+State 28
+   has path(s) to
+   1)b--->29
+State 29
+   has path(s) to
+   1)a--->30
+State 30
+   has path(s) to
+   1)a--->30
+   2)b--->29
+There is 1 Final state:  
+   30  
+
+Do you want to parse again (Y/N)?

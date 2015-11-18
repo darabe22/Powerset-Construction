@@ -1,0 +1,88 @@
+Enter the expression to be parsed: 
+((a.a*)*.b)*
+aa*.*b.*
+
+Printing nfa
+
+Printing Graph
+Starting state is:  
+   10
+There are 10 state(s) in the graph:  
+State 10
+   has path(s) to
+   1)--->9
+State 11
+   has no neighbors :( 
+State 6
+   has path(s) to
+   1)--->5
+State 7
+   has path(s) to
+   1)b--->9
+State 0
+   has path(s) to
+   1)a--->1
+State 1
+   has path(s) to
+   1)--->3
+State 5
+   has path(s) to
+   1)--->0
+   2)--->7
+State 2
+   has path(s) to
+   1)a--->3
+State 3
+   has path(s) to
+   1)--->2
+   2)--->5
+State 9
+   has path(s) to
+   1)--->6
+   2)--->11
+There is 1 Final state:  
+   11  
+
+Printing dfa
+
+Printing Graph
+Starting state is:  
+   12
+There are 3 state(s) in the graph:  
+State 12
+   has path(s) to
+   1)a--->13
+   2)b--->14
+State 13
+   has path(s) to
+   1)a--->13
+   2)b--->14
+State 14
+   has path(s) to
+   1)a--->13
+   2)b--->14
+There are 2 Final states:  
+   12  14  
+
+Printing minimum dfa
+
+Printing Graph
+Starting state is:  
+   19
+There are 3 state(s) in the graph:  
+State 19
+   has path(s) to
+   1)a--->21
+   2)b--->20
+State 20
+   has path(s) to
+   1)a--->21
+   2)b--->20
+State 21
+   has path(s) to
+   1)a--->21
+   2)b--->20
+There are 2 Final states:  
+   19  20  
+
+Do you want to parse again (Y/N)?
